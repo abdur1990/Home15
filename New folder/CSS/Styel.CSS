@@ -1,0 +1,185 @@
+/* Global Class */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+padding: 75px 0px;
+text-align: center;
+}
+p {
+font-size: 17px;
+font-weight: 300;
+line-height: 17px;
+}
+.Underline {
+border-top: 5px solid rgba(0, 0, 0, 0.178);
+width: 7%;
+margin: 10px auto;
+}
+.heading{
+font-size: 35px;
+letter-spacing: 1.5px;
+line-height: 35px;
+}
+.sub-heading{
+
+}
+.des{
+
+}
+.btn {
+
+}
+/* Layout */
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float:left ;
+}
+header {
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    float: left;
+    width: 8.33%;
+}
+.col-2 {
+    float: left;
+    width: 16.66%;
+}
+.col-3 {
+    float: left;
+    width: 25%;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+.col-5 {
+    float: left;
+    width: 41.66%;
+}
+.col-6 {
+    float: left;
+    width: 50%;
+}
+.col-7 {
+    float: left;
+    width: 58.33%;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
+}
+.col-9 {
+    float: left;
+    width: 75%;
+}
+.col-10 {
+    float: left;
+    width: 83.33%;
+}
+.col-11 {
+    float: left;
+    width: 91.66%;
+}
+.col-12 {
+    float: left;
+    width: 100%;
+}
+/* Header part */
+header {
+    background-color:#87509c ;
+}
+nav {
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.menu-part {
+}
+.menu-part ul{
+    text-align: end; 
+    padding: 6px 0px;
+    width: 100%;
+    float: left;
+}
+.menu-part li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    transition: ease-in-out 0.5s;
+}
+.menu-part li:hover {
+background-color:#643a79 ;
+border-radius: 7px;
+}
+.menu-part li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 60px;
+    text-transform:uppercase ;
+    width: 100%;
+    float: left;
+}
+.hero-part {
+    text-align: center;
+    padding: 100px 50px;
+}
+.hero-part h1 {
+    font-size: 35px;
+    line-height: 35px;
+    color: white; 
+}
+.hero-part button {
+text-transform: uppercase;
+width: 180px;
+padding: 10px;
+margin-top: 40px;
+font-weight: 400;
+color: white;
+background-color: #eb7d4b;
+}
+/* Service part */
+#service {
+background-color: #17c2a4;
+color: #ffffff;
+}
+.service-box-part {
+    margin margin-top: 50px;
+}
+.service-box {
+    padding: 50px 20px;
+}
+.service-box img {
+    max-height: 150px;
+}
+/* Team part */
+#Team {
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+/* Skill part */
+#Skill {
+    color: #3c4761;
+}
+/* About part */
+# About {
+    background-color: #d74680;
+}
+/* Portfolio part */
+#portfolio {
+    background-color: #ffdd99;
+}
+/* Footer part */
